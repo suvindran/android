@@ -1,4 +1,4 @@
-package in.propelsoft.fragument;
+package in.example.fragment;
 
 import org.junit.Test;
 

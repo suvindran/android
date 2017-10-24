@@ -1,4 +1,4 @@
-package in.propelsoft.fragument;
+package in.example.fragment;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

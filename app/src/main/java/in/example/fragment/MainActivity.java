@@ -1,4 +1,4 @@
-package in.example.fragument;
+package in.example.fragment;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -14,6 +14,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
+    //call tab view in activity//
     TabLayout tabLayout;
     ViewPager viewPager;
 
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
+    //create a base adapter in activity with extents fragmentpageradapter//
     public class Adapter extends FragmentPagerAdapter {
 
         List<Fragment> list = new ArrayList<>();
